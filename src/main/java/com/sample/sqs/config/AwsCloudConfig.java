@@ -6,13 +6,11 @@ import com.amazonaws.services.sqs.AmazonSQSAsync;
 import com.amazonaws.services.sqs.AmazonSQSAsyncClientBuilder;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.aws.messaging.config.QueueMessageHandlerFactory;
 import org.springframework.cloud.aws.messaging.config.SimpleMessageListenerContainerFactory;
 import org.springframework.cloud.aws.messaging.config.annotation.SqsClientConfiguration;
 import org.springframework.cloud.aws.messaging.config.annotation.SqsConfiguration;
 import org.springframework.cloud.aws.messaging.listener.QueueMessageHandler;
 import org.springframework.context.annotation.*;
-import org.springframework.core.task.SimpleAsyncTaskExecutor;
 
 @Configuration
 @Import({SqsClientConfiguration.class, SqsConfiguration.class})

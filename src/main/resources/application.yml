@@ -1,7 +1,7 @@
 aws:
   sqs:
-    accessKeyId: AKIAJPSKOPZBHQEYJW6A
-    secretAccessKey: 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
+    accessKeyId: xxxxxxxx
+    secretAccessKey: xxxxxxxxxxxx
 
 cloud:
   aws:
